@@ -14,7 +14,7 @@
   --grey-5: #212121;
   --grey-6: #1c1c1c;
 }
-img{
+img {
   width: 100%;
 }
 body {
@@ -32,7 +32,7 @@ body {
   margin-inline: auto;
 }
 section {
-  margin-block: 2.5rem;
+  margin-block: 2.8rem;
 }
 
 ul,
@@ -47,7 +47,7 @@ a {
   cursor: pointer;
 }
 
-.btn{
+.btn {
   border: none;
   outline: none;
   padding: 12px 24px 12px;
@@ -62,12 +62,23 @@ a {
   margin-left: 10px;
 }
 
-.description{
+.description {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1rem;
   color: var(--grey-4);
 }
 
+.title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--grey-6);
+  line-height: 2.5rem;
+}
+.subtitel {
+  font-weight: 800;
+  font-size: 1.2rem;
+  color: var(--grey-5);
+}
 /* Header */
 .nav {
   padding-block: 2rem;
@@ -87,24 +98,24 @@ a {
   gap: 2rem;
   align-items: center;
 }
-.nav_src i{
-color: var(--grey-2);
+.nav_src i {
+  color: var(--grey-2);
 }
-.menu_icon{
+.menu_icon {
   display: none;
 }
-.menu_icon i{
+.menu_icon i {
   font-size: 1.5rem;
   font-weight: 600;
 }
-.header_wrap{
+.header_wrap {
   text-align: center;
   margin-top: 2rem;
 }
-.header_bg{
+.header_bg {
   display: block;
 }
-.header_details{
+.header_details {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -112,16 +123,60 @@ color: var(--grey-2);
   flex-direction: column;
   gap: 2rem;
 }
-.header_bg img{
- max-width: 35.7rem;
- max-height: 21.9rem;
+.header_bg img {
+  max-width: 35.7rem;
+  max-height: 21.9rem;
 }
-.header_details p{
+.header_details p {
   max-width: 61.5rem;
-
 }
-.header_details h1{
+.header_details h1 {
   font-size: 4rem;
   font-weight: 800;
   max-width: 64.1rem;
+}
+
+/* About us */
+.about_us {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.vector_img {
+  display: block;
+}
+.vector_img img {
+  max-width: 6.25rem;
+}
+.vector_img p {
+  margin-left: 2.5rem;
+  font-weight: 500;
+  margin-top: 1.1rem;
+}
+.about_us_titel_subTitel h2 {
+  max-width: 30rem;
+  line-height: 3rem;
+  margin: 1.1rem 0rem;
+}
+.about_us_titel_subTitel p {
+  max-width: 31rem;
+}
+.about_card {
+  display: flex;
+  align-items: center;
+  margin-top: 2.7rem;
+  gap: 1.8rem;
+}
+.about_card p {
+  max-width: 20rem;
+  margin-top: 0.5rem;
+  color: var(--grey-3);
+}
+.about_card img {
+  max-width: 4rem;
+}
+.about_us_right_img img {
+  width: 90%;
+  text-align: center;
+  padding-top: 2.7rem;
 }

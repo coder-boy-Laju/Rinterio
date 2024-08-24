@@ -20,4 +20,28 @@
         font-weight: 800;
         max-width: 64.1rem;
       }
+      /* About us */
+      .about_us {
+       flex-direction: column;
+        text-align: center;
+      }
+      .about_us_contant{
+        text-align: center;
+      }
+      .vector_img img{
+        display: none;
+      }
+      .vector_img p{
+        margin-left: 0rem;
+        margin-top: 0rem;
+      }
+      .about_us_titel_subTitel h2 {
+       font-size: 1.5rem;
+       line-height: 2rem;
+       margin: 1rem 0rem;
+      }
+      .about_card div:nth-child(2){
+        text-align: start;
+      }
+  
     }
