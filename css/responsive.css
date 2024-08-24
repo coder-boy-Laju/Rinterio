@@ -1,0 +1,18 @@
+@media (max-width:767px) {
+    .container{
+        width: 90%;
+    }
+.logu_head img{
+    width: 90%;
+}
+
+    .nav_link{
+        display: none;
+      }
+      .nav_src{
+        display: none
+      }
+      .menu_icon {
+        display: block;
+      }
+    }
