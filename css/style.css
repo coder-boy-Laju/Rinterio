@@ -50,10 +50,18 @@ a {
 .btn{
   border: none;
   outline: none;
-  padding: 24px;
+  padding: 12px 24px 12px;
   background-color: rgba(171, 239, 95, 0.5);
-  
+  border-radius: 50px;
+  color: var(--grey-5);
+  font-weight: 700;
+  font-size: 1.1rem;
+  display: inline-block;
 }
+.btn_wrap a i {
+  margin-left: 10px;
+}
+
 .description{
   font-weight: 500;
   font-size: 18px;
@@ -88,13 +96,32 @@ color: var(--grey-2);
 .menu_icon i{
   font-size: 1.5rem;
   font-weight: 600;
-
 }
-
-/* .header_wrap{
+.header_wrap{
   text-align: center;
+  margin-top: 2rem;
+}
+.header_bg{
+  display: block;
+}
+.header_details{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+.header_bg img{
+ max-width: 35.7rem;
+ max-height: 21.9rem;
+}
+.header_details p{
+  max-width: 61.5rem;
+
 }
 .header_details h1{
   font-size: 4rem;
   font-weight: 800;
-} */
+  max-width: 64.1rem;
+}

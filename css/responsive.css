@@ -15,4 +15,9 @@
       .menu_icon {
         display: block;
       }
+      .header_details h1{
+        font-size: 2.5rem;
+        font-weight: 800;
+        max-width: 64.1rem;
+      }
     }
