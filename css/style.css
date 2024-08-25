@@ -82,8 +82,14 @@ a {
 .section_titel_des{
   text-align: center;
 }
+.bg_add{
+  background-color: rgba(171, 239, 95, 0.2);
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+}
 .section_titel_des span{
   font-weight: 700;
+  font-size: 0.9rem;
  }
 .section_titel_des h2{
   font-weight: 800;
