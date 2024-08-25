@@ -2,6 +2,9 @@
     .container{
         width: 90%;
     }
+    section {
+      margin-block: 3rem;
+    }
 .logu_head img{
     width: 90%;
 }
@@ -42,6 +45,11 @@
       }
       .about_card div:nth-child(2){
         text-align: start;
+      }
+      /* Details */
+      .details{
+      flex-direction: column;
+      gap: 3rem;
       }
   
     }
