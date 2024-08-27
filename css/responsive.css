@@ -1,59 +1,87 @@
-@media (max-width:767px) {
-    .container{
-        width: 90%;
-    }
-    section {
-      margin-block: 5.5rem;
-    }
-.logu_head img{
+@media (max-width: 767px) {
+  .container {
     width: 90%;
-}
+  }
+  section {
+    margin-block: 5.5rem;
+  }
+  .logu_head img {
+    width: 90%;
+  }
 
-    .nav_link{
-        display: none;
-      }
-      .nav_src{
-        display: none
-      }
-      .menu_icon {
-        display: block;
-      }
-      .header_details h1{
-        font-size: 2.5rem;
-        font-weight: 800;
-        max-width: 64.1rem;
-      }
-      /* About us */
-      .about_us {
-       flex-direction: column;
-        text-align: center;
-      }
-      .about_us_contant{
-        text-align: center;
-      }
-      .vector_img img{
-        display: none;
-      }
-      .vector_img p{
-        margin-left: 0rem;
-        margin-top: 0rem;
-      }
-      .about_us_titel_subTitel h2 {
-       font-size: 1.5rem;
-       line-height: 2rem;
-       margin: 1rem 0rem;
-      }
-      .about_card div:nth-child(2){
-        text-align: start;
-      }
-      /* Details */
-      .details{
-      flex-direction: column;
-      gap: 3rem;
-      }
-      /* Work */
-      .work_card_wrap{
-       flex-direction: column;
-        }
+  .nav_link {
+    display: none;
+  }
+  .nav_src {
+    display: none;
+  }
+  .menu_icon {
+    display: block;
+  }
+  .header_details h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    max-width: 64.1rem;
+  }
+  /* About us */
+  .about_us {
+    flex-direction: column;
+    text-align: center;
+  }
+  .about_us_contant {
+    text-align: center;
+  }
+  .vector_img img {
+    display: none;
+  }
+  .vector_img p {
+    margin-left: 0rem;
+    margin-top: 0rem;
+  }
+  .about_us_titel_subTitel h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 1rem 0rem;
+  }
+  .about_card div:nth-child(2) {
+    text-align: start;
+  }
+  /* Details */
+  .details {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  /* Work */
+  .work_card_wrap {
+    flex-direction: column;
+  }
+  /* Protfolio */
+  .section_titel_des h2{
+   font-size: 2.5rem;
+   line-height: 3.5rem;
+   margin: 1rem 0;
+  }
+  .protfolio_wrapper {
+    gap: 2rem;
+  }
+  .protfolio_wrapper img {
+    max-width:15rem;
+  }
+  .for_order{
+    order: 2;
+  }
+  .protfolio_first {
+    flex-direction: column;
+    gap: 2rem;
   
-    }
+
+  }
+  .protfolio_cards_sm {
+    flex-direction: column;
+  }
+  .protfolio_second {
+    flex-direction: column;
+    gap: 2rem;
+
+  }
+}

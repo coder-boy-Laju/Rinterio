@@ -61,7 +61,17 @@ a {
 .btn_wrap a i {
   margin-left: 10px;
 }
+.btn_class_add{
+  background-color: transparent;
+  text-align: start;
+  padding: 0;
+}
+.btn_class_add i{
+  background-color: #ABEF5F;
+  padding: 0.5rem;
+  border-radius: 50px;
 
+}
 .description {
   font-weight: 500;
   font-size: 1rem;
@@ -256,4 +266,40 @@ justify-content: center;
 }
 .work_card h3{
   margin: 0.7rem 0rem;
+}
+
+/* protfolio section */
+.protfolio_wrapper{
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.protfolio_first{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.protfolio_cards_sm{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.protfolio_cards_sm_text{
+  max-width: 27.5rem;
+}
+.protfolio_cards_sm_text p{
+  margin: 0.75rem 0rem;
+}
+.protfolio_cards_One_right_img img{
+  max-width: 23rem;
+}
+.protfolio_second{
+  display: flex;
+ justify-content: space-around;
+ align-items: center;
+
+}
+#protfolio_cards_sm_id{
+  max-width: 15rem;
 }
