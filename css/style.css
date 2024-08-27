@@ -303,3 +303,27 @@ justify-content: center;
 #protfolio_cards_sm_id{
   max-width: 15rem;
 }
+
+/* news */
+.news_card_wrap{
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.new_card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.5rem;
+  max-width: 23.35rem;
+  background-color: rgb(255, 255, 255);
+}
+.new_card span{
+display: flex;
+gap: 1rem;
+color:var(--grey-3);
+}
+.new_card h3{
+color: var(--grey-5);
+}
