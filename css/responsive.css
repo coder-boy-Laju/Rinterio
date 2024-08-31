@@ -86,4 +86,36 @@
     flex-direction: column;
     gap: 2rem;
   }
+/* Form */
+.form_input_wrap {
+flex-direction: column;
+}
+
+.form_input_wrap input {
+  width: 17rem;
+}
+.LastNM_email {
+  margin-top: 1.5rem;
+}
+.form_email_send_wrap {
+  text-align: center;
+}
+.form_email_send_wrap a{
+ width: 17rem;
+
+}
+
+
+
+
+
+  /* Footer */
+  .footer{
+ 
+    padding: 4rem 0;
+  }
+  .footer_link_wrap ul{
+   flex-direction: column;
+   gap: 2rem;
+   }
 }
