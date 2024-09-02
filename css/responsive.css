@@ -88,13 +88,11 @@
   }
   /* Form */
   .form_input_team {
-    grid-template-columns: repeat(1, minmax(2fr));
+    grid-template-columns: repeat(1,minmax(280px, 1fr));
   }
-
   .form_input_team {
     width: 80%;
   }
-
   .form_email_send {
     text-align: center;
     width: 100%;
