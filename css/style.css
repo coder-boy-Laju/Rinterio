@@ -333,39 +333,42 @@ a {
   background-size: cover;
 }
 .from_contant {
-  padding: 10rem 0rem;
+  padding: 5rem 0rem;
 }
-.form_input_wrap {
-  margin-top: 5rem;
-  display: flex;
-  justify-content: center;
-  gap: 3rem;
-  align-items: center;
-  margin-bottom: 2rem;
+.form_input_wrap{
+  margin-top: 2rem;
 }
 
-.form_input_wrap input {
+.form_input_team {
+ display: grid;
+ place-items: center;
+ grid-template-columns: repeat(2,minmax(280px, 1fr));
+ gap: 2rem;
+ margin-bottom: 2rem;
+}
+.form_input_team .input-wrap{
+width: 100%;
+}
+
+.form_input_team input {
   border: none;
   outline: none;
-  padding: 1.4rem 1.3rem 1.4rem;
   padding: 1.5rem;
   background-color: #ffff;
-  width: 29rem;
+  width: 100%;
   border-radius: 1.5rem;
   color: var(--grey-2);
   font-size: 1rem;
   font-weight: 700;
 }
-.LastNM_email {
-  margin-top: 1.5rem;
-}
+
 .form_email_send_wrap {
   text-align: center;
 }
 .form_email_send {
   background-color: #abef5f;
   text-align: center;
-  width: 29rem;
+  width: 50%;
   padding: 1rem 1rem;
 }
 
@@ -412,3 +415,4 @@ color: #a0a0a0;
 .footer_btn a{
   background-color: #abef5f;
 }
+/* END */
